@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ascending order</title>
+</head>
+<body>
+
+    <script>
+        
+        let a=prompt("Enter Value a");
+	    let b=prompt("Enter Value b");
+	    let c=prompt("Enter Value c");
+		let d=prompt("Enter Value d");
+        if(a>b && a>c &&a>d){
+				if(b>c && b>d ){
+							if(c>d){
+							
+								console.log(d,c,b,a);
+							}
+						   else{
+							console.log(c,d,b,a);
+						   }
+				}
+				else if(c>b && c>d){
+					 if(b>d){
+						console.log(b,a,c,d)
+					 }
+					 else{
+						console.log(a,b,d,c)
+					 }
+				}
+
+         
+    </script>
+    
+</body>
+</html>
